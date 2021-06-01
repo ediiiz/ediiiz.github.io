@@ -13,7 +13,7 @@ img {
   border-radius: 5%;
 }
 
-#container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,8 +27,9 @@ img {
   align-items: center;
   justify-content: center;
   color: lightgrey;
-  font-weight: 100;
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
 }
 
 #CycleMemeButton {
@@ -57,4 +58,46 @@ button:hover {
   transition: 0.5s;
   text-decoration: underline;
   border: 1px solid #121212;
+}
+
+#mainNav {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#mainNav ul {
+  padding: 0%;
+  margin: 0;
+  list-style: none;
+}
+
+#mainNav li {
+  display: inline;
+  padding: 5px;
+}
+
+#mainNav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #8c00c4;
+}
+
+#mainNav li:hover {
+  background-color: #202020;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+
+#jumbo {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+  background-color: #202020;
+  min-height: 50px;
+  text-align: center;
 }
