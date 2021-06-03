@@ -36,10 +36,10 @@ body::-webkit-scrollbar-thumb {
   display: grid;
 
   grid-template:
-    "header header header header" 100px
-    "nav main . ads" 1fr
-    "footer footer footer footer" 100px
-    / 20% 1fr 50px 15%;
+    "header header header" 100px
+    "nav main ads" 1fr
+    "footer footer footer" 100px
+    / 20% 1fr 15%;
 }
 
 .gridItem {
